@@ -31,7 +31,7 @@ day_mapping = {'Monday': 1, 'Tuesday': 2, 'Wednesday': 3, 'Thursday': 4, 'Friday
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col1:
-    image_path_sidebar = 'C:/Users/gkmur/Downloads/Bootcamp/Python data/Supervised Machine Learning/Final_Project/bullseye.png'
+    image_path_sidebar = 'bullseye.png'
     st.sidebar.image(image_path_sidebar, use_column_width=True)
     st.sidebar.title("Model Selection")
     model_name = st.sidebar.selectbox("Choose a Model", ["Random Forest", "XGBoost"])
