@@ -38,7 +38,7 @@ with col1:
 
 with col2:
     # Use the absolute path to the image file
-    image_path = 'C:/Users/gkmur/Downloads/Bootcamp/Python data/Supervised Machine Learning/Final_Project/investment.png'
+    image_path = 'investment.png'
     st.image(image_path, use_column_width=True)
     st.title("SavvyInvestments")
 
